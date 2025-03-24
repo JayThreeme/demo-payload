@@ -8,12 +8,17 @@ import { ContentBlock } from '@/blocks/Content/Component'
 import { FormBlock } from '@/blocks/Form/Component'
 import { MediaBlock } from '@/blocks/MediaBlock/Component'
 
+import { YourBlockName } from './CutomBlockOne/component'
+import { UseCasesComponent } from './CustomBlockTwo/Component'
+
 const blockComponents = {
   archive: ArchiveBlock,
   content: ContentBlock,
   cta: CallToActionBlock,
   formBlock: FormBlock,
   mediaBlock: MediaBlock,
+  YourBlockName: YourBlockName,
+  UseCasesComponent: UseCasesComponent,
 }
 
 export const RenderBlocks: React.FC<{
